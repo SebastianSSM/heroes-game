@@ -114,9 +114,9 @@ class Hero {
   
   }
   
-  let dwarf = new Dwarf('Marcel', 50);
-  let sprite = new Sprite('Gigel', 40);
-  let dragon = new Dragon('Vasile', 60);
+  let dwarf = new Dwarf('Iron-Man', 50);
+  let sprite = new Sprite('Thanos', 40);
+  let dragon = new Dragon('Thor', 60);
   
   let epicFight = new Fight(dragon, dwarf);
   
