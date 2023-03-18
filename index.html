@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HEROES FIGHT GAME</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">Heroes Fight Game</h1>
+      <div class="buttons-container">
+        <button id="show-heroes-btn">Show Heroes</button>
+        <button id="start-fight-btn">Start Fight</button>
+      </div>
+
+      <div class="heroes-container" id="heroes-container">
+        <div class="hero-container-1">
+          <img class="hero-avatar" src="images/iron-man.jpg">
+          <span class="hero-name">Iron Man</span>
+          <div class="hero-details">
+            <span class="powers">POWERS</span><br>
+            <span class="hero-powers">Can Fly <br>
+              Shield <br>
+              Regeneration
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-container-2">
+          <img class="hero-avatar" src="images/thanos.jpg">
+          <span class="hero-name">Thanos</span>
+          <div class="hero-details">
+            <span class="powers">POWERS</span><br>
+            <span class="hero-powers">Has Shield <br>
+              Superhuman Strength <br>
+              Immortality
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-container-3">
+          <img class="hero-avatar" src="images/thor.jpg">
+          <span class="hero-name">Thor</span>
+          <div class="hero-details">
+            <span class="powers">POWERS</span><br>
+            <span class="hero-powers">Control of Elements <br>
+              Superhuman Speed <br>
+              Sword-Fighting
+            </span>
+          </div>
+        </div>
+      </div>
+      <div id="show-winner">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="functionality.js"></script>
+  </body>
+
+</html>
